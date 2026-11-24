@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Miguel Miguel",
+        "telefone": "(19) 3232-2323",
+        "email": "falhanamatrix@email.com"
+    },
+    {
+        "id": 2,
+        "nome": "Julio",
+        "telefone": "(19) 3333-3333",
+        "email": "julinhogameplays@email.com"
+    },
+    {
+        "id": 3,
+        "nome": "Aura Noites",
+        "telefone": "(11) 6767-7676",
+        "email": "mateiminhavo@email.com"
+    }
+]

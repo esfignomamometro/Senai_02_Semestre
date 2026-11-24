@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="card">
+            <h1>Cadastro</h1>
+            <p>Preencha os dados abaixo</p>
+
+            <select id="tipoPessoa">
+                <option value="1">Aluno</option>
+                <option value="2">Professor</option>
+            </select>
+
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="text" id="campoEspecifico" placeholder="Matrícula">
+
+            <button id="salvar">Salvar</button>
+        </div>
+
+        <div class="card tabela-container">
+            <h2>Alunos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaAlunos">
+                </tbody>
+            </table>
+
+            <h2>Professores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Disciplina</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaProfessores">
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
